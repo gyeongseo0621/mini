@@ -452,8 +452,8 @@ if __name__ == '__main__':
                         TX_data(serial_port, 6)
                     elif Angle > 110:
                         TX_data(serial_port, 4)
-                    elif 0 < Angle < 70:
-                        TX_data(serial_port,미정_왼쪽턴45)
+                    # elif 0 < Angle < 70:
+                    #     TX_data(serial_port,미정_왼쪽턴45)
                     else:
                         TX_data(serial_port,2)
                         break
